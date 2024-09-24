@@ -359,6 +359,11 @@ var options2 = {
                 return value.toLocaleString();
             }
         }
+    },
+    legend: {
+        labels: {
+            colors: '#FFFFFF' // Cor branca para as legendas
+        }
     }
 };
 

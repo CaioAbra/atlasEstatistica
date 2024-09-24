@@ -314,10 +314,8 @@ text {
   border-top: 1px solid #1F1F1F;
 }
 
-@media screen and (max-width: 1024px) {
-  .overflow-table {
-    overflow-x: scroll;
-  }
+.overflow-table {
+  overflow-x: scroll;
 }
 .overflow-table .table {
   min-width: 61rem;
@@ -339,7 +337,7 @@ text {
 @media screen and (max-width: 500px) {
   .overflow-table .table tr th,
   .overflow-table .table tr td {
-    font-size: 10px;
+    font-size: 12px;
   }
 }
 @media screen and (min-width: 501px) {
@@ -373,14 +371,16 @@ text {
     margin-top: 36px !important;
   }
 }
-span.name {
+h6.name {
   color: var(--cinza-claro);
   font-size: 16px;
   font-weight: 400;
+  margin-bottom: 0;
 }
+
 span.subtitle {
   color: var(--cinza-medio);
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 400;
 }
 
