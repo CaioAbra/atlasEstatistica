@@ -11,7 +11,7 @@
         margin: 0;
         left: 0;
         background-color: var(--preto-medio);
-        padding:1rem 0;
+        padding: 1rem 0;
 
         .container-fluid {
             justify-content: flex-start;
@@ -29,7 +29,7 @@
         ul {
             display: -webkit-inline-box;
             float: right;
-            
+
         }
 
         .nav-link {
@@ -123,6 +123,29 @@
                     margin-left: 5px;
                 }
             }
+
+            .dropdown-toggle::after {
+                display: none !important;
+            }
+
+            .dropdown-menu {
+                background-color: #4D4D4D !important ;
+                border-radius: 6px !important;
+
+                a {
+                    color: #FFFFFF;
+                    font-size: 12px;
+                    transition: all .3s ease;
+
+                    &:hover {
+                        text-decoration: none;
+                        background-color: transparent !important;
+                        color: var(--laranja);
+                    }
+                }
+            }
         }
     }
+
+
 }
